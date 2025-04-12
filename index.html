@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Astrology - Horoscopes, Tarot & Birth Charts</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts - Cormorant Garamond and Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h1>COSMIC ASTROLOGY</h1>
+            </div>
+            
+            <nav class="desktop-nav">
+                <ul>
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#horoscope">Horoscopes</a></li>
+                    <li><a href="#tarot">Tarot</a></li>
+                    <li><a href="#birth-chart">Birth Charts</a></li>
+                </ul>
+            </nav>
+            
+            <div class="mobile-menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        
+        <div class="mobile-menu">
+            <ul>
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#horoscope">Horoscopes</a></li>
+                <li><a href="#tarot">Tarot</a></li>
+                <li><a href="#birth-chart">Birth Charts</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="cosmic-circle">
+                    <img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Cosmic Sky">
+                </div>
+                <h2 class="hero-title">DISCOVER YOUR COSMIC PATH</h2>
+                <div class="divider"></div>
+                <p class="hero-text">Explore the ancient wisdom of the stars and uncover insights about your journey</p>
+            </div>
+        </section>
+
+        <!-- Horoscope Section -->
+        <section id="horoscope" class="horoscope">
+            <div class="container">
+                <h2 class="section-title">DAILY HOROSCOPE</h2>
+                
+                <!-- Featured Horoscope -->
+                <div class="featured-horoscope">
+                    <div class="cosmic-card">
+                        <div class="sign-header">
+                            <div class="sign-icon aries">♈</div>
+                            <div class="sign-info">
+                                <h3>Aries</h3>
+                                <p class="sign-dates">March 21 - April 19</p>
+                            </div>
+                        </div>
+                        <p class="horoscope-text">
+                            Today brings a special energy to your life, Aries. Your natural leadership qualities are enhanced, 
+                            making this an excellent day to take initiative on projects or ideas you've been contemplating. 
+                            Trust your instincts and allow your confidence to guide you.
+                        </p>
+                        <div class="horoscope-meta">
+                            <span>Compatibility: Leo, Sagittarius</span>
+                            <span>Lucky Numbers: 3, 7, 12</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Zodiac Signs -->
+                <div class="zodiac-grid">
+                    <div class="zodiac-title">
+                        <h3>Select Your Sign</h3>
+                    </div>
+                    <div class="signs-container">
+                        <div class="zodiac-sign" data-sign="aries">♈</div>
+                        <div class="zodiac-sign" data-sign="taurus">♉</div>
+                        <div class="zodiac-sign" data-sign="gemini">♊</div>
+                        <div class="zodiac-sign" data-sign="cancer">♋</div>
+                        <div class="zodiac-sign" data-sign="leo">♌</div>
+                        <div class="zodiac-sign" data-sign="virgo">♍</div>
+                        <div class="zodiac-sign" data-sign="libra">♎</div>
+                        <div class="zodiac-sign" data-sign="scorpio">♏</div>
+                        <div class="zodiac-sign" data-sign="sagittarius">♐</div>
+                        <div class="zodiac-sign" data-sign="capricorn">♑</div>
+                        <div class="zodiac-sign" data-sign="aquarius">♒</div>
+                        <div class="zodiac-sign" data-sign="pisces">♓</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tarot Section -->
+        <section id="tarot" class="tarot">
+            <div class="container">
+                <h2 class="section-title">TAROT READINGS</h2>
+                <p class="section-subtitle">Reveal insights about your past, present, and future</p>
+                
+                <div class="tarot-container">
+                    <div class="tarot-cards">
+                        <div class="tarot-card">
+                            <div class="card-inner">
+                                <div class="card-front"></div>
+                                <div class="card-back">
+                                    <h3>The Star</h3>
+                                    <p class="card-keywords">Hope, faith, purpose, renewal</p>
+                                    <p class="card-meaning">
+                                        The Star represents hope, inspiration, and spiritual insight. Its appearance 
+                                        suggests a period of renewed optimism and faith in the future.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tarot-card">
+                            <div class="card-inner">
+                                <div class="card-front"></div>
+                                <div class="card-back">
+                                    <h3>The Moon</h3>
+                                    <p class="card-keywords">Intuition, unconscious, illusion</p>
+                                    <p class="card-meaning">
+                                        The Moon represents your fears and illusions. Its appearance suggests a time when 
+                                        something in your life may not be what it seems.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tarot-card">
+                            <div class="card-inner">
+                                <div class="card-front"></div>
+                                <div class="card-back">
+                                    <h3>The Sun</h3>
+                                    <p class="card-keywords">Success, joy, celebration, vitality</p>
+                                    <p class="card-meaning">
+                                        The Sun represents success, radiance, and abundance. Its appearance suggests that 
+                                        good things are on the horizon for you.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tarot-actions">
+                        <button id="draw-cards" class="cosmic-button">Draw New Cards</button>
+                        <select id="reading-type" class="cosmic-select">
+                            <option value="three-card">Past, Present & Future</option>
+                            <option value="single-card">Card of the Day</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Birth Chart Section -->
+        <section id="birth-chart" class="birth-chart">
+            <div class="container">
+                <h2 class="section-title">BIRTH CHART</h2>
+                <p class="section-subtitle">Discover your unique celestial blueprint</p>
+                
+                <div class="chart-container">
+                    <div class="chart-form cosmic-card">
+                        <h3>Generate Your Birth Chart</h3>
+                        <form id="birth-chart-form">
+                            <div class="form-group">
+                                <label for="birth-date">Date of Birth</label>
+                                <input type="date" id="birth-date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="birth-time">Time of Birth</label>
+                                <input type="time" id="birth-time" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="birth-location">Location of Birth</label>
+                                <input type="text" id="birth-location" placeholder="City, Country" required>
+                            </div>
+                            <button type="submit" class="cosmic-button">Generate Chart</button>
+                        </form>
+                    </div>
+                    
+                    <div class="chart-display cosmic-card">
+                        <div class="cosmic-orbit">
+                            <div class="planet sun">☉</div>
+                            <div class="planet moon">☽</div>
+                            <div class="planet mercury">☿</div>
+                            <div class="planet venus">♀</div>
+                            <div class="planet mars">♂</div>
+                            <div class="planet jupiter">♃</div>
+                            <div class="orbit-center">⊕</div>
+                        </div>
+                        <div class="chart-info">
+                            <p class="chart-placeholder">Fill in your birth details to see your personal birth chart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h2>COSMIC ASTROLOGY</h2>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Cosmic Astrology. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
